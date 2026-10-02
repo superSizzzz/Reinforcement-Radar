@@ -1,0 +1,20 @@
+# Build output -- regenerate with `python -B scripts/build.py`
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs written by the game at runtime, never part of the project
+*.log

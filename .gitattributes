@@ -1,0 +1,8 @@
+# Normalise line endings. The build and the offline test harness assume LF.
+* text=auto eol=lf
+
+# Images and archives are binary.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.zip binary

@@ -11,7 +11,7 @@ undiscoverable, so each package ships two resources:
 Two variants are built from the same reader: the cooldown reader itself, and a
 diagnostic build that traces the module-lookup chain.
 """
-REVISION = 'v0.1.0-reader'
+REVISION = 'v1.0.0'
 MODULE = 'mods/hd2mods/reinforcement_radar'
 IMPL = 'mods/hd2mods/reinforcement_radar_impl'
 

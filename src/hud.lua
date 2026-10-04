@@ -17,9 +17,12 @@
 
 local LAYOUT = {
     right_margin = 0.012,
-    -- Fraction of screen height measured DOWN from the top edge: roughly the
-    -- right-hand side of the screen, a little above centre.
-    below_objectives = 0.42,
+    -- Fraction of screen height measured DOWN from the top edge: the midpoint
+    -- between the native objective panel in the top-right corner (its own
+    -- centre sits near 0.15) and the panel's earlier 0.42 anchor. Note this
+    -- anchors the panel's TOP edge, so the label centre lands about
+    -- 0.5 * height / reference_height lower.
+    below_objectives = 0.28,
     width = 172,
     height = 40,
     text_inset_x = 10,
